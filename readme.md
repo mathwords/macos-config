@@ -18,7 +18,7 @@ To use the script `macos_config_general.zsh`
 
 ### Install Homebrew
 
-1. Use below, or get latest from [homebrew](brew.sh) 
+1. Use below, or get latest from [homebrew](https://brew.sh/) 
 
    ```shell
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
