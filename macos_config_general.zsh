@@ -7,8 +7,8 @@ defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
 defaults write com.apple.AppleMultitouchTrackpad TrackpadRightClick -bool true
 defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool true
 ## defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool true
-defaults write com.apple.universalaccess dragLock -bool false
-defaults write com.apple.universalaccess dragging -bool true
+## defaults write com.apple.universalaccess dragLock -bool false    # fails and exits
+## defaults write com.apple.universalaccess dragging -bool true     # fails and exits
 
 # Control Centre (Menu Bar)
 defaults write com.apple.controlcenter BatteryShowPercentage -bool true

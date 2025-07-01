@@ -9,8 +9,8 @@
 # --------------------------------------
 # GUI Applications (Cask)
 # --------------------------------------
-cask "google-chrome"         # Web browser
 cask "sublime-text"          # Lightweight code editor
+cask "google-chrome"         # Web browser
 cask "slack"                 # Team communication
 cask "adobe-acrobat-reader"  # PDF reader
 cask "numi"                  # Calculator
