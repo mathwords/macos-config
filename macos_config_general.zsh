@@ -31,6 +31,15 @@ defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
 defaults write com.apple.finder NewWindowTarget -string "PfLo"
 defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/"
 
+# Desktop settings
+# Set icon size to 48 pixels
+defaults write com.apple.finder DesktopViewSettings -dict IconViewSettings -dict iconSize -integer 48
+# # Set arrangement to 'none' (manual placement)
+# defaults write com.apple.finder DesktopViewSettings -dict IconViewSettings -dict arrangeBy -string "none"
+# Enable snap to grid via arrangeBy
+defaults write com.apple.finder DesktopViewSettings -dict IconViewSettings -dict arrangeBy -string "grid"
+
+
 # Apply changes
 killall Finder
 killall SystemUIServer
