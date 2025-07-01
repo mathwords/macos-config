@@ -19,6 +19,7 @@ defaults write com.apple.dock show-recents -bool false
 # Window settings
 defaults write com.apple.WindowManager EnableTiledWindowMargins -bool false
 defaults write com.apple.WindowManager EnableStandardClickAndDragTiling -bool false
+defaults write com.apple.WindowManager EnableStandardClickToShowDesktop -bool false
 
 # Finder settings
 defaults write com.apple.finder ShowStatusBar -bool true
@@ -35,6 +36,7 @@ killall Finder
 killall SystemUIServer
 ## To apply to Dock settings and Window settings
 killall Dock
+killall WindowManager
 
 
 echo "✅ Settings applied. Some changes may require you to log out and back in."
